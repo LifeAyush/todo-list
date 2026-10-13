@@ -1,21 +1,20 @@
-# ToDo-List
+# ToDo List
 
-ToDo list is a simple web application to save Your daily tasks in order not to miss anything.
+Django exercise for a personal task list.
 
-### Features
-* Automatically sets Date and Time of entry of a task
-* Add new task
-* Mark task as completed / uncompleted
-* Edit task
-* Delete single task
-* Delete completed tasks
-* Delete all tasks
+## How to run
 
-### Technologies used:
-* HTML
-* CSS
-* Python
-* Dajngo
+```bash
+pip install django
+```
 
+Set `DJANGO_SECRET_KEY`, then run:
 
-### App demo
+```bash
+python manage.py migrate
+python manage.py runserver
+```
+
+The database is created locally and is not in the repo.
+
+Clone URL: https://github.com/LifeAyush/todo-list.git
